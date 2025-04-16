@@ -1,0 +1,76 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Página-1" id="5R0oxkvEWqQqeaPywPhO">
+    <mxGraphModel dx="1050" dy="1798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vjLqWKErU38OEki1xF5x-4" value="Sistemas de agendamento de consultas médicas" style="swimlane;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;gradientColor=none;fillColor=default;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-10" width="680" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-16" value="Login no site do médico (a)" style="ellipse;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="vjLqWKErU38OEki1xF5x-4">
+          <mxGeometry x="280" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="vjLqWKErU38OEki1xF5x-4" source="vjLqWKErU38OEki1xF5x-19" target="vjLqWKErU38OEki1xF5x-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-25" value="includ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vjLqWKErU38OEki1xF5x-24">
+          <mxGeometry x="-0.0286" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-19" value="Agendar" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="vjLqWKErU38OEki1xF5x-4">
+          <mxGeometry x="273" y="140" width="134" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-23" value="Informação dos documentos RG/CPF e convenio ou consulta particular." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="vjLqWKErU38OEki1xF5x-4">
+          <mxGeometry x="268.5" y="310" width="143" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-27" value="Adiciona à agentda do médico e o informa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="vjLqWKErU38OEki1xF5x-4">
+          <mxGeometry x="490" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vjLqWKErU38OEki1xF5x-8" target="vjLqWKErU38OEki1xF5x-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="35" y="110" />
+              <mxPoint x="290" y="110" />
+              <mxPoint x="290" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vjLqWKErU38OEki1xF5x-8" target="vjLqWKErU38OEki1xF5x-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="310" />
+              <mxPoint x="270" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-8" value="Paciente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-10" value="Médico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="820" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vjLqWKErU38OEki1xF5x-11" target="vjLqWKErU38OEki1xF5x-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-11" value="sistema de agendamento" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vjLqWKErU38OEki1xF5x-19" target="vjLqWKErU38OEki1xF5x-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjLqWKErU38OEki1xF5x-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vjLqWKErU38OEki1xF5x-27" target="vjLqWKErU38OEki1xF5x-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
